@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code&display=swap" rel="stylesheet">
+    {% seo %}
+    {%- if jekyll.environment == 'production' and site.google_analytics -%}
+      {%- include google-analytics.html -%}
+    {%- endif -%}
+</head>
+<body>
+    <header class="site-header">
+        <div class="wrapper">
+            {%- assign default_paths = site.pages | map: "path" -%}
+            {%- assign page_paths = site.header_pages | default: default_paths -%}
+            {%- assign titles_size = site.pages | map: "title" | join: '' | size -%}
+            <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+
+            {%- if titles_size > 0 -%}
+                <nav class="site-nav">
+                    <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+                    <label for="nav-trigger">
+                        <span class="menu-icon">
+                            <svg viewBox="0 0 18 15" width="18px" height="15px">
+                                <path d="M18 1.484c0 .82-.665 1.484-1.484 1.484H1.484C.665 2.969 0 2.304 0 1.484 0 .665.665 0 1.484 0h15.032C17.335 0 18 .665 18 1.484zm0 6.516c0 .82-.665 1.484-1.484 1.484H1.484C.665 9.484 0 8.82 0 8c0-.82.665-1.484 1.484-1.484h15.032C17.335 6.516 18 7.18 18 8zm0 6.516c0 .82-.665 1.484-1.484 1.484H1.484C.665 16 0 15.335 0 14.516c0-.82.665-1.484 1.484-1.484h15.032C17.335 13.032 18 13.696 18 14.516z"/>
+                            </svg>
+                        </span>
+                    </label>
+
+                    <div class="trigger">
+                        {%- for path in page_paths -%}
+                            {%- assign my_page = site.pages | where: "path", path | first -%}
+                            {%- if my_page.title -%}
+                                <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                            {%- endif -%}
+                        {%- endfor -%}
+                    </div>
+                </nav>
+            {%- endif -%}
+        </div>
+    </header>
+
+    <main class="page-content" aria-label="Content">
+        <div class="wrapper">
+            {{ content }}
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrapper">
+            <div class="footer-col-wrapper">
+                <div class="footer-col">
+                    {%- if site.author %}
+                        <ul class="contact-list">
+                            {% if site.author.name -%}
+                                <li class="p-name">{{ site.author.name | escape }}</li>
+                            {% endif -%}
+                            {% if site.author.email -%}
+                                <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+                            {%- endif %}
+                        </ul>
+                    {%- endif %}
+                </div>
+                <div class="footer-col">
+                    <p>{{ site.description | escape }}</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Add smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Add active state to current page in navigation
+        document.addEventListener('DOMContentLoaded', function() {
+            const currentPath = window.location.pathname;
+            document.querySelectorAll('.page-link').forEach(link => {
+                if (link.getAttribute('href') === currentPath) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html> 

@@ -1,0 +1,28 @@
+@use "sass:color";
+
+$text-color:       #111;
+$brand-color:      #2a7ae2;
+$grey-color:       #828282;
+
+$grey-color-light: color.adjust($grey-color, $lightness: 40%);
+$grey-color-dark:  color.adjust($grey-color, $lightness: -25%);
+
+a {
+  &:visited {
+    color: color.adjust($brand-color, $lightness: -15%);
+  }
+}
+
+table {
+  color: color.adjust($text-color, $lightness: 18%);
+  tr {
+    &:nth-child(even) {
+      background-color: color.adjust($grey-color-light, $lightness: 6%);
+    }
+  }
+  th {
+    background-color: color.adjust($grey-color-light, $lightness: 3%);
+    border: 1px solid color.adjust($grey-color-light, $lightness: -4%);
+    border-bottom-color: color.adjust($grey-color-light, $lightness: -12%);
+  }
+} 

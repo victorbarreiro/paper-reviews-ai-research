@@ -1,5 +1,5 @@
-current directory: /home/victorxbd/Documentos/fozadas/public/paperewviews/vendor/bundle/ruby/3.1.0/gems/bigdecimal-3.1.9/ext/bigdecimal
-/usr/bin/ruby3.1 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20250603-148886-oxtx60.rb extconf.rb
+current directory: /home/victorxbd/Documentos/fozadas/public/paper-reviews-ai-research/vendor/bundle/ruby/3.1.0/gems/bigdecimal-3.1.9/ext/bigdecimal
+/usr/bin/ruby3.1 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20250603-517670-tmy91o.rb extconf.rb
 checking for __builtin_clz()... yes
 checking for __builtin_clzl()... yes
 checking for __builtin_clzll()... yes
@@ -27,15 +27,15 @@ checking for rb_category_warn() in ruby.h... yes
 checking for RB_WARN_CATEGORY_DEPRECATED in ruby.h... yes
 creating Makefile
 
-current directory: /home/victorxbd/Documentos/fozadas/public/paperewviews/vendor/bundle/ruby/3.1.0/gems/bigdecimal-3.1.9/ext/bigdecimal
+current directory: /home/victorxbd/Documentos/fozadas/public/paper-reviews-ai-research/vendor/bundle/ruby/3.1.0/gems/bigdecimal-3.1.9/ext/bigdecimal
 make DESTDIR\= clean
 
-current directory: /home/victorxbd/Documentos/fozadas/public/paperewviews/vendor/bundle/ruby/3.1.0/gems/bigdecimal-3.1.9/ext/bigdecimal
+current directory: /home/victorxbd/Documentos/fozadas/public/paper-reviews-ai-research/vendor/bundle/ruby/3.1.0/gems/bigdecimal-3.1.9/ext/bigdecimal
 make DESTDIR\=
 compiling bigdecimal.c
 compiling missing.c
 linking shared-object bigdecimal.so
 
-current directory: /home/victorxbd/Documentos/fozadas/public/paperewviews/vendor/bundle/ruby/3.1.0/gems/bigdecimal-3.1.9/ext/bigdecimal
+current directory: /home/victorxbd/Documentos/fozadas/public/paper-reviews-ai-research/vendor/bundle/ruby/3.1.0/gems/bigdecimal-3.1.9/ext/bigdecimal
 make DESTDIR\= install
-/usr/bin/install -c -m 0755 bigdecimal.so ./.gem.20250603-148886-a0g61d
+/usr/bin/install -c -m 0755 bigdecimal.so ./.gem.20250603-517670-usu3fa

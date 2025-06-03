@@ -1,6 +1,6 @@
 have_builtin_func: checking for __builtin_clz()... -------------------- yes
 
-LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu:/tmp/.mount_CursorlvKBQW/usr/lib/:/tmp/.mount_CursorlvKBQW/usr/lib32/:/tmp/.mount_CursorlvKBQW/usr/lib64/:/tmp/.mount_CursorlvKBQW/lib/:/tmp/.mount_CursorlvKBQW/lib/i386-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/x86_64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/aarch64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib32/:/tmp/.mount_CursorlvKBQW/lib64/:/tmp/.mount_CursorZmVmmt/usr/lib/:/tmp/.mount_CursorZmVmmt/usr/lib32/:/tmp/.mount_CursorZmVmmt/usr/lib64/:/tmp/.mount_CursorZmVmmt/lib/:/tmp/.mount_CursorZmVmmt/lib/i386-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/x86_64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/aarch64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib32/:/tmp/.mount_CursorZmVmmt/lib64/: "x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -lruby-3.1  -lm  -lc"
+LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu "x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -lruby-3.1  -lm  -lc"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -11,7 +11,7 @@ checked program was:
 6: }
 /* end */
 
-LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu:/tmp/.mount_CursorlvKBQW/usr/lib/:/tmp/.mount_CursorlvKBQW/usr/lib32/:/tmp/.mount_CursorlvKBQW/usr/lib64/:/tmp/.mount_CursorlvKBQW/lib/:/tmp/.mount_CursorlvKBQW/lib/i386-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/x86_64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/aarch64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib32/:/tmp/.mount_CursorlvKBQW/lib64/:/tmp/.mount_CursorZmVmmt/usr/lib/:/tmp/.mount_CursorZmVmmt/usr/lib32/:/tmp/.mount_CursorZmVmmt/usr/lib64/:/tmp/.mount_CursorZmVmmt/lib/:/tmp/.mount_CursorZmVmmt/lib/i386-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/x86_64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/aarch64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib32/:/tmp/.mount_CursorZmVmmt/lib64/: "x86_64-linux-gnu-gcc -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC   -c conftest.c"
+LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu "x86_64-linux-gnu-gcc -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC   -c conftest.c"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -24,7 +24,7 @@ checked program was:
 
 have_builtin_func: checking for __builtin_clzl()... -------------------- yes
 
-LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu:/tmp/.mount_CursorlvKBQW/usr/lib/:/tmp/.mount_CursorlvKBQW/usr/lib32/:/tmp/.mount_CursorlvKBQW/usr/lib64/:/tmp/.mount_CursorlvKBQW/lib/:/tmp/.mount_CursorlvKBQW/lib/i386-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/x86_64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/aarch64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib32/:/tmp/.mount_CursorlvKBQW/lib64/:/tmp/.mount_CursorZmVmmt/usr/lib/:/tmp/.mount_CursorZmVmmt/usr/lib32/:/tmp/.mount_CursorZmVmmt/usr/lib64/:/tmp/.mount_CursorZmVmmt/lib/:/tmp/.mount_CursorZmVmmt/lib/i386-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/x86_64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/aarch64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib32/:/tmp/.mount_CursorZmVmmt/lib64/: "x86_64-linux-gnu-gcc -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC   -c conftest.c"
+LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu "x86_64-linux-gnu-gcc -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC   -c conftest.c"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -37,7 +37,7 @@ checked program was:
 
 have_builtin_func: checking for __builtin_clzll()... -------------------- yes
 
-LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu:/tmp/.mount_CursorlvKBQW/usr/lib/:/tmp/.mount_CursorlvKBQW/usr/lib32/:/tmp/.mount_CursorlvKBQW/usr/lib64/:/tmp/.mount_CursorlvKBQW/lib/:/tmp/.mount_CursorlvKBQW/lib/i386-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/x86_64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/aarch64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib32/:/tmp/.mount_CursorlvKBQW/lib64/:/tmp/.mount_CursorZmVmmt/usr/lib/:/tmp/.mount_CursorZmVmmt/usr/lib32/:/tmp/.mount_CursorZmVmmt/usr/lib64/:/tmp/.mount_CursorZmVmmt/lib/:/tmp/.mount_CursorZmVmmt/lib/i386-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/x86_64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/aarch64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib32/:/tmp/.mount_CursorZmVmmt/lib64/: "x86_64-linux-gnu-gcc -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC   -c conftest.c"
+LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu "x86_64-linux-gnu-gcc -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC   -c conftest.c"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -50,7 +50,7 @@ checked program was:
 
 have_header: checking for float.h... -------------------- yes
 
-LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu:/tmp/.mount_CursorlvKBQW/usr/lib/:/tmp/.mount_CursorlvKBQW/usr/lib32/:/tmp/.mount_CursorlvKBQW/usr/lib64/:/tmp/.mount_CursorlvKBQW/lib/:/tmp/.mount_CursorlvKBQW/lib/i386-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/x86_64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/aarch64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib32/:/tmp/.mount_CursorlvKBQW/lib64/:/tmp/.mount_CursorZmVmmt/usr/lib/:/tmp/.mount_CursorZmVmmt/usr/lib32/:/tmp/.mount_CursorZmVmmt/usr/lib64/:/tmp/.mount_CursorZmVmmt/lib/:/tmp/.mount_CursorZmVmmt/lib/i386-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/x86_64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/aarch64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib32/:/tmp/.mount_CursorZmVmmt/lib64/: "x86_64-linux-gnu-gcc -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC   -c conftest.c"
+LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu "x86_64-linux-gnu-gcc -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC   -c conftest.c"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -62,7 +62,7 @@ checked program was:
 
 have_header: checking for math.h... -------------------- yes
 
-LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu:/tmp/.mount_CursorlvKBQW/usr/lib/:/tmp/.mount_CursorlvKBQW/usr/lib32/:/tmp/.mount_CursorlvKBQW/usr/lib64/:/tmp/.mount_CursorlvKBQW/lib/:/tmp/.mount_CursorlvKBQW/lib/i386-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/x86_64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/aarch64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib32/:/tmp/.mount_CursorlvKBQW/lib64/:/tmp/.mount_CursorZmVmmt/usr/lib/:/tmp/.mount_CursorZmVmmt/usr/lib32/:/tmp/.mount_CursorZmVmmt/usr/lib64/:/tmp/.mount_CursorZmVmmt/lib/:/tmp/.mount_CursorZmVmmt/lib/i386-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/x86_64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/aarch64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib32/:/tmp/.mount_CursorZmVmmt/lib64/: "x86_64-linux-gnu-gcc -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC   -c conftest.c"
+LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu "x86_64-linux-gnu-gcc -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC   -c conftest.c"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -74,7 +74,7 @@ checked program was:
 
 have_header: checking for stdbool.h... -------------------- yes
 
-LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu:/tmp/.mount_CursorlvKBQW/usr/lib/:/tmp/.mount_CursorlvKBQW/usr/lib32/:/tmp/.mount_CursorlvKBQW/usr/lib64/:/tmp/.mount_CursorlvKBQW/lib/:/tmp/.mount_CursorlvKBQW/lib/i386-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/x86_64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/aarch64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib32/:/tmp/.mount_CursorlvKBQW/lib64/:/tmp/.mount_CursorZmVmmt/usr/lib/:/tmp/.mount_CursorZmVmmt/usr/lib32/:/tmp/.mount_CursorZmVmmt/usr/lib64/:/tmp/.mount_CursorZmVmmt/lib/:/tmp/.mount_CursorZmVmmt/lib/i386-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/x86_64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/aarch64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib32/:/tmp/.mount_CursorZmVmmt/lib64/: "x86_64-linux-gnu-gcc -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC   -c conftest.c"
+LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu "x86_64-linux-gnu-gcc -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC   -c conftest.c"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -86,7 +86,7 @@ checked program was:
 
 have_header: checking for stdlib.h... -------------------- yes
 
-LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu:/tmp/.mount_CursorlvKBQW/usr/lib/:/tmp/.mount_CursorlvKBQW/usr/lib32/:/tmp/.mount_CursorlvKBQW/usr/lib64/:/tmp/.mount_CursorlvKBQW/lib/:/tmp/.mount_CursorlvKBQW/lib/i386-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/x86_64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/aarch64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib32/:/tmp/.mount_CursorlvKBQW/lib64/:/tmp/.mount_CursorZmVmmt/usr/lib/:/tmp/.mount_CursorZmVmmt/usr/lib32/:/tmp/.mount_CursorZmVmmt/usr/lib64/:/tmp/.mount_CursorZmVmmt/lib/:/tmp/.mount_CursorZmVmmt/lib/i386-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/x86_64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/aarch64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib32/:/tmp/.mount_CursorZmVmmt/lib64/: "x86_64-linux-gnu-gcc -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC   -c conftest.c"
+LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu "x86_64-linux-gnu-gcc -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC   -c conftest.c"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -98,7 +98,7 @@ checked program was:
 
 have_header: checking for x86intrin.h... -------------------- yes
 
-LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu:/tmp/.mount_CursorlvKBQW/usr/lib/:/tmp/.mount_CursorlvKBQW/usr/lib32/:/tmp/.mount_CursorlvKBQW/usr/lib64/:/tmp/.mount_CursorlvKBQW/lib/:/tmp/.mount_CursorlvKBQW/lib/i386-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/x86_64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/aarch64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib32/:/tmp/.mount_CursorlvKBQW/lib64/:/tmp/.mount_CursorZmVmmt/usr/lib/:/tmp/.mount_CursorZmVmmt/usr/lib32/:/tmp/.mount_CursorZmVmmt/usr/lib64/:/tmp/.mount_CursorZmVmmt/lib/:/tmp/.mount_CursorZmVmmt/lib/i386-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/x86_64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/aarch64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib32/:/tmp/.mount_CursorZmVmmt/lib64/: "x86_64-linux-gnu-gcc -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC   -c conftest.c"
+LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu "x86_64-linux-gnu-gcc -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC   -c conftest.c"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -110,9 +110,9 @@ checked program was:
 
 have_func: checking for _lzcnt_u32() in x86intrin.h... -------------------- no
 
-LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu:/tmp/.mount_CursorlvKBQW/usr/lib/:/tmp/.mount_CursorlvKBQW/usr/lib32/:/tmp/.mount_CursorlvKBQW/usr/lib64/:/tmp/.mount_CursorlvKBQW/lib/:/tmp/.mount_CursorlvKBQW/lib/i386-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/x86_64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/aarch64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib32/:/tmp/.mount_CursorlvKBQW/lib64/:/tmp/.mount_CursorZmVmmt/usr/lib/:/tmp/.mount_CursorZmVmmt/usr/lib32/:/tmp/.mount_CursorZmVmmt/usr/lib64/:/tmp/.mount_CursorZmVmmt/lib/:/tmp/.mount_CursorZmVmmt/lib/i386-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/x86_64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/aarch64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib32/:/tmp/.mount_CursorZmVmmt/lib64/: "x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -lruby-3.1  -lm  -lc"
-/usr/bin/ld: /tmp/ccH7rSpH.o: in function `t':
-/home/victorxbd/Documentos/fozadas/public/paperewviews/vendor/bundle/ruby/3.1.0/gems/bigdecimal-3.1.9/ext/bigdecimal/conftest.c:16: undefined reference to `_lzcnt_u32'
+LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu "x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -lruby-3.1  -lm  -lc"
+/usr/bin/ld: /tmp/ccVLspE5.o: in function `t':
+/home/victorxbd/Documentos/fozadas/public/paper-reviews-ai-research/vendor/bundle/ruby/3.1.0/gems/bigdecimal-3.1.9/ext/bigdecimal/conftest.c:16: undefined reference to `_lzcnt_u32'
 collect2: error: ld returned 1 exit status
 checked program was:
 /* begin */
@@ -134,7 +134,7 @@ checked program was:
 16: int t(void) { void ((*volatile p)()); p = (void ((*)()))_lzcnt_u32; return !p; }
 /* end */
 
-LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu:/tmp/.mount_CursorlvKBQW/usr/lib/:/tmp/.mount_CursorlvKBQW/usr/lib32/:/tmp/.mount_CursorlvKBQW/usr/lib64/:/tmp/.mount_CursorlvKBQW/lib/:/tmp/.mount_CursorlvKBQW/lib/i386-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/x86_64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/aarch64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib32/:/tmp/.mount_CursorlvKBQW/lib64/:/tmp/.mount_CursorZmVmmt/usr/lib/:/tmp/.mount_CursorZmVmmt/usr/lib32/:/tmp/.mount_CursorZmVmmt/usr/lib64/:/tmp/.mount_CursorZmVmmt/lib/:/tmp/.mount_CursorZmVmmt/lib/i386-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/x86_64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/aarch64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib32/:/tmp/.mount_CursorZmVmmt/lib64/: "x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -lruby-3.1  -lm  -lc"
+LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu "x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -lruby-3.1  -lm  -lc"
 conftest.c:16:13: error: conflicting types for ‘_lzcnt_u32’; have ‘void()’
    16 | extern void _lzcnt_u32();
       |             ^~~~~~~~~~
@@ -169,9 +169,9 @@ checked program was:
 
 have_func: checking for _lzcnt_u64() in x86intrin.h... -------------------- no
 
-LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu:/tmp/.mount_CursorlvKBQW/usr/lib/:/tmp/.mount_CursorlvKBQW/usr/lib32/:/tmp/.mount_CursorlvKBQW/usr/lib64/:/tmp/.mount_CursorlvKBQW/lib/:/tmp/.mount_CursorlvKBQW/lib/i386-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/x86_64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/aarch64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib32/:/tmp/.mount_CursorlvKBQW/lib64/:/tmp/.mount_CursorZmVmmt/usr/lib/:/tmp/.mount_CursorZmVmmt/usr/lib32/:/tmp/.mount_CursorZmVmmt/usr/lib64/:/tmp/.mount_CursorZmVmmt/lib/:/tmp/.mount_CursorZmVmmt/lib/i386-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/x86_64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/aarch64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib32/:/tmp/.mount_CursorZmVmmt/lib64/: "x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -lruby-3.1  -lm  -lc"
-/usr/bin/ld: /tmp/cc41RT9L.o: in function `t':
-/home/victorxbd/Documentos/fozadas/public/paperewviews/vendor/bundle/ruby/3.1.0/gems/bigdecimal-3.1.9/ext/bigdecimal/conftest.c:16: undefined reference to `_lzcnt_u64'
+LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu "x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -lruby-3.1  -lm  -lc"
+/usr/bin/ld: /tmp/ccml5aUY.o: in function `t':
+/home/victorxbd/Documentos/fozadas/public/paper-reviews-ai-research/vendor/bundle/ruby/3.1.0/gems/bigdecimal-3.1.9/ext/bigdecimal/conftest.c:16: undefined reference to `_lzcnt_u64'
 collect2: error: ld returned 1 exit status
 checked program was:
 /* begin */
@@ -193,7 +193,7 @@ checked program was:
 16: int t(void) { void ((*volatile p)()); p = (void ((*)()))_lzcnt_u64; return !p; }
 /* end */
 
-LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu:/tmp/.mount_CursorlvKBQW/usr/lib/:/tmp/.mount_CursorlvKBQW/usr/lib32/:/tmp/.mount_CursorlvKBQW/usr/lib64/:/tmp/.mount_CursorlvKBQW/lib/:/tmp/.mount_CursorlvKBQW/lib/i386-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/x86_64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/aarch64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib32/:/tmp/.mount_CursorlvKBQW/lib64/:/tmp/.mount_CursorZmVmmt/usr/lib/:/tmp/.mount_CursorZmVmmt/usr/lib32/:/tmp/.mount_CursorZmVmmt/usr/lib64/:/tmp/.mount_CursorZmVmmt/lib/:/tmp/.mount_CursorZmVmmt/lib/i386-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/x86_64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/aarch64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib32/:/tmp/.mount_CursorZmVmmt/lib64/: "x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -lruby-3.1  -lm  -lc"
+LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu "x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -lruby-3.1  -lm  -lc"
 conftest.c:16:13: error: conflicting types for ‘_lzcnt_u64’; have ‘void()’
    16 | extern void _lzcnt_u64();
       |             ^~~~~~~~~~
@@ -228,7 +228,7 @@ checked program was:
 
 have_header: checking for intrin.h... -------------------- no
 
-LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu:/tmp/.mount_CursorlvKBQW/usr/lib/:/tmp/.mount_CursorlvKBQW/usr/lib32/:/tmp/.mount_CursorlvKBQW/usr/lib64/:/tmp/.mount_CursorlvKBQW/lib/:/tmp/.mount_CursorlvKBQW/lib/i386-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/x86_64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/aarch64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib32/:/tmp/.mount_CursorlvKBQW/lib64/:/tmp/.mount_CursorZmVmmt/usr/lib/:/tmp/.mount_CursorZmVmmt/usr/lib32/:/tmp/.mount_CursorZmVmmt/usr/lib64/:/tmp/.mount_CursorZmVmmt/lib/:/tmp/.mount_CursorZmVmmt/lib/i386-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/x86_64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/aarch64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib32/:/tmp/.mount_CursorZmVmmt/lib64/: "x86_64-linux-gnu-gcc -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC   -c conftest.c"
+LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu "x86_64-linux-gnu-gcc -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC   -c conftest.c"
 conftest.c:3:10: fatal error: intrin.h: Non hai tal ficheiro ou directorio
     3 | #include <intrin.h>
       |          ^~~~~~~~~~
@@ -244,7 +244,7 @@ checked program was:
 
 have_func: checking for labs() in stdlib.h... -------------------- yes
 
-LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu:/tmp/.mount_CursorlvKBQW/usr/lib/:/tmp/.mount_CursorlvKBQW/usr/lib32/:/tmp/.mount_CursorlvKBQW/usr/lib64/:/tmp/.mount_CursorlvKBQW/lib/:/tmp/.mount_CursorlvKBQW/lib/i386-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/x86_64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/aarch64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib32/:/tmp/.mount_CursorlvKBQW/lib64/:/tmp/.mount_CursorZmVmmt/usr/lib/:/tmp/.mount_CursorZmVmmt/usr/lib32/:/tmp/.mount_CursorZmVmmt/usr/lib64/:/tmp/.mount_CursorZmVmmt/lib/:/tmp/.mount_CursorZmVmmt/lib/i386-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/x86_64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/aarch64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib32/:/tmp/.mount_CursorZmVmmt/lib64/: "x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -lruby-3.1  -lm  -lc"
+LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu "x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -lruby-3.1  -lm  -lc"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -269,7 +269,7 @@ checked program was:
 
 have_func: checking for llabs() in stdlib.h... -------------------- yes
 
-LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu:/tmp/.mount_CursorlvKBQW/usr/lib/:/tmp/.mount_CursorlvKBQW/usr/lib32/:/tmp/.mount_CursorlvKBQW/usr/lib64/:/tmp/.mount_CursorlvKBQW/lib/:/tmp/.mount_CursorlvKBQW/lib/i386-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/x86_64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/aarch64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib32/:/tmp/.mount_CursorlvKBQW/lib64/:/tmp/.mount_CursorZmVmmt/usr/lib/:/tmp/.mount_CursorZmVmmt/usr/lib32/:/tmp/.mount_CursorZmVmmt/usr/lib64/:/tmp/.mount_CursorZmVmmt/lib/:/tmp/.mount_CursorZmVmmt/lib/i386-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/x86_64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/aarch64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib32/:/tmp/.mount_CursorZmVmmt/lib64/: "x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -lruby-3.1  -lm  -lc"
+LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu "x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -lruby-3.1  -lm  -lc"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -294,7 +294,7 @@ checked program was:
 
 have_func: checking for finite() in math.h... -------------------- yes
 
-LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu:/tmp/.mount_CursorlvKBQW/usr/lib/:/tmp/.mount_CursorlvKBQW/usr/lib32/:/tmp/.mount_CursorlvKBQW/usr/lib64/:/tmp/.mount_CursorlvKBQW/lib/:/tmp/.mount_CursorlvKBQW/lib/i386-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/x86_64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/aarch64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib32/:/tmp/.mount_CursorlvKBQW/lib64/:/tmp/.mount_CursorZmVmmt/usr/lib/:/tmp/.mount_CursorZmVmmt/usr/lib32/:/tmp/.mount_CursorZmVmmt/usr/lib64/:/tmp/.mount_CursorZmVmmt/lib/:/tmp/.mount_CursorZmVmmt/lib/i386-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/x86_64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/aarch64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib32/:/tmp/.mount_CursorZmVmmt/lib64/: "x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -lruby-3.1  -lm  -lc"
+LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu "x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -lruby-3.1  -lm  -lc"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -319,7 +319,7 @@ checked program was:
 
 have_func: checking for isfinite() in math.h... -------------------- no
 
-LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu:/tmp/.mount_CursorlvKBQW/usr/lib/:/tmp/.mount_CursorlvKBQW/usr/lib32/:/tmp/.mount_CursorlvKBQW/usr/lib64/:/tmp/.mount_CursorlvKBQW/lib/:/tmp/.mount_CursorlvKBQW/lib/i386-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/x86_64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/aarch64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib32/:/tmp/.mount_CursorlvKBQW/lib64/:/tmp/.mount_CursorZmVmmt/usr/lib/:/tmp/.mount_CursorZmVmmt/usr/lib32/:/tmp/.mount_CursorZmVmmt/usr/lib64/:/tmp/.mount_CursorZmVmmt/lib/:/tmp/.mount_CursorZmVmmt/lib/i386-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/x86_64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/aarch64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib32/:/tmp/.mount_CursorZmVmmt/lib64/: "x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -lruby-3.1  -lm  -lc"
+LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu "x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -lruby-3.1  -lm  -lc"
 conftest.c: In function ‘t’:
 conftest.c:16:57: error: ‘isfinite’ undeclared (first use in this function); did you mean ‘finite’?
    16 | int t(void) { void ((*volatile p)()); p = (void ((*)()))isfinite; return !p; }
@@ -346,9 +346,9 @@ checked program was:
 16: int t(void) { void ((*volatile p)()); p = (void ((*)()))isfinite; return !p; }
 /* end */
 
-LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu:/tmp/.mount_CursorlvKBQW/usr/lib/:/tmp/.mount_CursorlvKBQW/usr/lib32/:/tmp/.mount_CursorlvKBQW/usr/lib64/:/tmp/.mount_CursorlvKBQW/lib/:/tmp/.mount_CursorlvKBQW/lib/i386-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/x86_64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/aarch64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib32/:/tmp/.mount_CursorlvKBQW/lib64/:/tmp/.mount_CursorZmVmmt/usr/lib/:/tmp/.mount_CursorZmVmmt/usr/lib32/:/tmp/.mount_CursorZmVmmt/usr/lib64/:/tmp/.mount_CursorZmVmmt/lib/:/tmp/.mount_CursorZmVmmt/lib/i386-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/x86_64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/aarch64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib32/:/tmp/.mount_CursorZmVmmt/lib64/: "x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -lruby-3.1  -lm  -lc"
-/usr/bin/ld: /tmp/cc0PGT0Z.o: in function `t':
-/home/victorxbd/Documentos/fozadas/public/paperewviews/vendor/bundle/ruby/3.1.0/gems/bigdecimal-3.1.9/ext/bigdecimal/conftest.c:17: undefined reference to `__builtin_isfinite'
+LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu "x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -lruby-3.1  -lm  -lc"
+/usr/bin/ld: /tmp/cc6InDp6.o: in function `t':
+/home/victorxbd/Documentos/fozadas/public/paper-reviews-ai-research/vendor/bundle/ruby/3.1.0/gems/bigdecimal-3.1.9/ext/bigdecimal/conftest.c:17: undefined reference to `__builtin_isfinite'
 collect2: error: ld returned 1 exit status
 checked program was:
 /* begin */
@@ -375,7 +375,7 @@ checked program was:
 
 have_header: checking for ruby/atomic.h... -------------------- yes
 
-LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu:/tmp/.mount_CursorlvKBQW/usr/lib/:/tmp/.mount_CursorlvKBQW/usr/lib32/:/tmp/.mount_CursorlvKBQW/usr/lib64/:/tmp/.mount_CursorlvKBQW/lib/:/tmp/.mount_CursorlvKBQW/lib/i386-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/x86_64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/aarch64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib32/:/tmp/.mount_CursorlvKBQW/lib64/:/tmp/.mount_CursorZmVmmt/usr/lib/:/tmp/.mount_CursorZmVmmt/usr/lib32/:/tmp/.mount_CursorZmVmmt/usr/lib64/:/tmp/.mount_CursorZmVmmt/lib/:/tmp/.mount_CursorZmVmmt/lib/i386-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/x86_64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/aarch64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib32/:/tmp/.mount_CursorZmVmmt/lib64/: "x86_64-linux-gnu-gcc -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC   -c conftest.c"
+LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu "x86_64-linux-gnu-gcc -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC   -c conftest.c"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -387,7 +387,7 @@ checked program was:
 
 have_header: checking for ruby/internal/has/builtin.h... -------------------- yes
 
-LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu:/tmp/.mount_CursorlvKBQW/usr/lib/:/tmp/.mount_CursorlvKBQW/usr/lib32/:/tmp/.mount_CursorlvKBQW/usr/lib64/:/tmp/.mount_CursorlvKBQW/lib/:/tmp/.mount_CursorlvKBQW/lib/i386-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/x86_64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/aarch64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib32/:/tmp/.mount_CursorlvKBQW/lib64/:/tmp/.mount_CursorZmVmmt/usr/lib/:/tmp/.mount_CursorZmVmmt/usr/lib32/:/tmp/.mount_CursorZmVmmt/usr/lib64/:/tmp/.mount_CursorZmVmmt/lib/:/tmp/.mount_CursorZmVmmt/lib/i386-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/x86_64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/aarch64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib32/:/tmp/.mount_CursorZmVmmt/lib64/: "x86_64-linux-gnu-gcc -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC   -c conftest.c"
+LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu "x86_64-linux-gnu-gcc -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC   -c conftest.c"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -399,7 +399,7 @@ checked program was:
 
 have_header: checking for ruby/internal/static_assert.h... -------------------- yes
 
-LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu:/tmp/.mount_CursorlvKBQW/usr/lib/:/tmp/.mount_CursorlvKBQW/usr/lib32/:/tmp/.mount_CursorlvKBQW/usr/lib64/:/tmp/.mount_CursorlvKBQW/lib/:/tmp/.mount_CursorlvKBQW/lib/i386-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/x86_64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/aarch64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib32/:/tmp/.mount_CursorlvKBQW/lib64/:/tmp/.mount_CursorZmVmmt/usr/lib/:/tmp/.mount_CursorZmVmmt/usr/lib32/:/tmp/.mount_CursorZmVmmt/usr/lib64/:/tmp/.mount_CursorZmVmmt/lib/:/tmp/.mount_CursorZmVmmt/lib/i386-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/x86_64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/aarch64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib32/:/tmp/.mount_CursorZmVmmt/lib64/: "x86_64-linux-gnu-gcc -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC   -c conftest.c"
+LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu "x86_64-linux-gnu-gcc -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC   -c conftest.c"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -411,7 +411,7 @@ checked program was:
 
 have_func: checking for rb_rational_num() in ruby.h... -------------------- yes
 
-LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu:/tmp/.mount_CursorlvKBQW/usr/lib/:/tmp/.mount_CursorlvKBQW/usr/lib32/:/tmp/.mount_CursorlvKBQW/usr/lib64/:/tmp/.mount_CursorlvKBQW/lib/:/tmp/.mount_CursorlvKBQW/lib/i386-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/x86_64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/aarch64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib32/:/tmp/.mount_CursorlvKBQW/lib64/:/tmp/.mount_CursorZmVmmt/usr/lib/:/tmp/.mount_CursorZmVmmt/usr/lib32/:/tmp/.mount_CursorZmVmmt/usr/lib64/:/tmp/.mount_CursorZmVmmt/lib/:/tmp/.mount_CursorZmVmmt/lib/i386-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/x86_64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/aarch64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib32/:/tmp/.mount_CursorZmVmmt/lib64/: "x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -lruby-3.1  -lm  -lc"
+LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu "x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -lruby-3.1  -lm  -lc"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -436,7 +436,7 @@ checked program was:
 
 have_func: checking for rb_rational_den() in ruby.h... -------------------- yes
 
-LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu:/tmp/.mount_CursorlvKBQW/usr/lib/:/tmp/.mount_CursorlvKBQW/usr/lib32/:/tmp/.mount_CursorlvKBQW/usr/lib64/:/tmp/.mount_CursorlvKBQW/lib/:/tmp/.mount_CursorlvKBQW/lib/i386-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/x86_64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/aarch64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib32/:/tmp/.mount_CursorlvKBQW/lib64/:/tmp/.mount_CursorZmVmmt/usr/lib/:/tmp/.mount_CursorZmVmmt/usr/lib32/:/tmp/.mount_CursorZmVmmt/usr/lib64/:/tmp/.mount_CursorZmVmmt/lib/:/tmp/.mount_CursorZmVmmt/lib/i386-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/x86_64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/aarch64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib32/:/tmp/.mount_CursorZmVmmt/lib64/: "x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -lruby-3.1  -lm  -lc"
+LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu "x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -lruby-3.1  -lm  -lc"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -461,7 +461,7 @@ checked program was:
 
 have_func: checking for rb_complex_real() in ruby.h... -------------------- yes
 
-LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu:/tmp/.mount_CursorlvKBQW/usr/lib/:/tmp/.mount_CursorlvKBQW/usr/lib32/:/tmp/.mount_CursorlvKBQW/usr/lib64/:/tmp/.mount_CursorlvKBQW/lib/:/tmp/.mount_CursorlvKBQW/lib/i386-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/x86_64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/aarch64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib32/:/tmp/.mount_CursorlvKBQW/lib64/:/tmp/.mount_CursorZmVmmt/usr/lib/:/tmp/.mount_CursorZmVmmt/usr/lib32/:/tmp/.mount_CursorZmVmmt/usr/lib64/:/tmp/.mount_CursorZmVmmt/lib/:/tmp/.mount_CursorZmVmmt/lib/i386-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/x86_64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/aarch64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib32/:/tmp/.mount_CursorZmVmmt/lib64/: "x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -lruby-3.1  -lm  -lc"
+LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu "x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -lruby-3.1  -lm  -lc"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -486,7 +486,7 @@ checked program was:
 
 have_func: checking for rb_complex_imag() in ruby.h... -------------------- yes
 
-LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu:/tmp/.mount_CursorlvKBQW/usr/lib/:/tmp/.mount_CursorlvKBQW/usr/lib32/:/tmp/.mount_CursorlvKBQW/usr/lib64/:/tmp/.mount_CursorlvKBQW/lib/:/tmp/.mount_CursorlvKBQW/lib/i386-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/x86_64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/aarch64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib32/:/tmp/.mount_CursorlvKBQW/lib64/:/tmp/.mount_CursorZmVmmt/usr/lib/:/tmp/.mount_CursorZmVmmt/usr/lib32/:/tmp/.mount_CursorZmVmmt/usr/lib64/:/tmp/.mount_CursorZmVmmt/lib/:/tmp/.mount_CursorZmVmmt/lib/i386-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/x86_64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/aarch64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib32/:/tmp/.mount_CursorZmVmmt/lib64/: "x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -lruby-3.1  -lm  -lc"
+LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu "x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -lruby-3.1  -lm  -lc"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -511,7 +511,7 @@ checked program was:
 
 have_func: checking for rb_opts_exception_p() in ruby.h... -------------------- yes
 
-LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu:/tmp/.mount_CursorlvKBQW/usr/lib/:/tmp/.mount_CursorlvKBQW/usr/lib32/:/tmp/.mount_CursorlvKBQW/usr/lib64/:/tmp/.mount_CursorlvKBQW/lib/:/tmp/.mount_CursorlvKBQW/lib/i386-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/x86_64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/aarch64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib32/:/tmp/.mount_CursorlvKBQW/lib64/:/tmp/.mount_CursorZmVmmt/usr/lib/:/tmp/.mount_CursorZmVmmt/usr/lib32/:/tmp/.mount_CursorZmVmmt/usr/lib64/:/tmp/.mount_CursorZmVmmt/lib/:/tmp/.mount_CursorZmVmmt/lib/i386-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/x86_64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/aarch64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib32/:/tmp/.mount_CursorZmVmmt/lib64/: "x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -lruby-3.1  -lm  -lc"
+LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu "x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -lruby-3.1  -lm  -lc"
 conftest.c: In function ‘t’:
 conftest.c:16:57: error: ‘rb_opts_exception_p’ undeclared (first use in this function); did you mean ‘rb_make_exception’?
    16 | int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_opts_exception_p; return !p; }
@@ -538,7 +538,7 @@ checked program was:
 16: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_opts_exception_p; return !p; }
 /* end */
 
-LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu:/tmp/.mount_CursorlvKBQW/usr/lib/:/tmp/.mount_CursorlvKBQW/usr/lib32/:/tmp/.mount_CursorlvKBQW/usr/lib64/:/tmp/.mount_CursorlvKBQW/lib/:/tmp/.mount_CursorlvKBQW/lib/i386-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/x86_64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/aarch64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib32/:/tmp/.mount_CursorlvKBQW/lib64/:/tmp/.mount_CursorZmVmmt/usr/lib/:/tmp/.mount_CursorZmVmmt/usr/lib32/:/tmp/.mount_CursorZmVmmt/usr/lib64/:/tmp/.mount_CursorZmVmmt/lib/:/tmp/.mount_CursorZmVmmt/lib/i386-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/x86_64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/aarch64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib32/:/tmp/.mount_CursorZmVmmt/lib64/: "x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -lruby-3.1  -lm  -lc"
+LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu "x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -lruby-3.1  -lm  -lc"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -564,7 +564,7 @@ checked program was:
 
 have_func: checking for rb_category_warn() in ruby.h... -------------------- yes
 
-LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu:/tmp/.mount_CursorlvKBQW/usr/lib/:/tmp/.mount_CursorlvKBQW/usr/lib32/:/tmp/.mount_CursorlvKBQW/usr/lib64/:/tmp/.mount_CursorlvKBQW/lib/:/tmp/.mount_CursorlvKBQW/lib/i386-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/x86_64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/aarch64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib32/:/tmp/.mount_CursorlvKBQW/lib64/:/tmp/.mount_CursorZmVmmt/usr/lib/:/tmp/.mount_CursorZmVmmt/usr/lib32/:/tmp/.mount_CursorZmVmmt/usr/lib64/:/tmp/.mount_CursorZmVmmt/lib/:/tmp/.mount_CursorZmVmmt/lib/i386-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/x86_64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/aarch64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib32/:/tmp/.mount_CursorZmVmmt/lib64/: "x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -lruby-3.1  -lm  -lc"
+LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu "x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -lruby-3.1  -lm  -lc"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -589,7 +589,7 @@ checked program was:
 
 have_const: checking for RB_WARN_CATEGORY_DEPRECATED in ruby.h... -------------------- yes
 
-LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu:/tmp/.mount_CursorlvKBQW/usr/lib/:/tmp/.mount_CursorlvKBQW/usr/lib32/:/tmp/.mount_CursorlvKBQW/usr/lib64/:/tmp/.mount_CursorlvKBQW/lib/:/tmp/.mount_CursorlvKBQW/lib/i386-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/x86_64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib/aarch64-linux-gnu/:/tmp/.mount_CursorlvKBQW/lib32/:/tmp/.mount_CursorlvKBQW/lib64/:/tmp/.mount_CursorZmVmmt/usr/lib/:/tmp/.mount_CursorZmVmmt/usr/lib32/:/tmp/.mount_CursorZmVmmt/usr/lib64/:/tmp/.mount_CursorZmVmmt/lib/:/tmp/.mount_CursorZmVmmt/lib/i386-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/x86_64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib/aarch64-linux-gnu/:/tmp/.mount_CursorZmVmmt/lib32/:/tmp/.mount_CursorZmVmmt/lib64/: "x86_64-linux-gnu-gcc -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC   -c conftest.c"
+LD_LIBRARY_PATH=.:/usr/lib/x86_64-linux-gnu "x86_64-linux-gnu-gcc -I/usr/include/x86_64-linux-gnu/ruby-3.1.0 -I/usr/include/ruby-3.1.0/ruby/backward -I/usr/include/ruby-3.1.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC   -c conftest.c"
 checked program was:
 /* begin */
 1: #include "ruby.h"

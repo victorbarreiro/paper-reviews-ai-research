@@ -1,10 +1,10 @@
 # .github/workflows/github-pages.yml
-name: Deploy Jekyll site to Pages
+name: Deploy to GitHub Pages
 
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["main"]
+    branches: [ main ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -33,26 +33,24 @@ jobs:
         with:
           ruby-version: '3.2.3'
           bundler-cache: true # This will cache dependencies
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v3
-        with:
-          # Automatically inject baseurl in your Jekyll configuration
-          static_site_generator: jekyll
-      - name: Build with Jekyll
+      - name: Install dependencies
+        run: bundle install
+      - name: Build site
         run: bundle exec jekyll build --baseurl "/paper-reviews-ai-research"
         env:
           JEKYLL_ENV: production
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site
 
   # Deployment job
   deploy:
+    needs: build
+    runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
     steps:
       - name: Deploy to GitHub Pages
         id: deployment

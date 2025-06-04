@@ -21,8 +21,8 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          bundler-cache: true  # Automatically installs bundler and uses cache
-          # Optionally: ruby-version: 3.2.3
+          ruby-version: 3.2.3         # ✅ Required for activesupport >= 8
+          bundler-cache: true         # ✅ Speeds up builds
 
       - name: Install dependencies
         run: bundle install

@@ -23,7 +23,7 @@ author: Víctor Barreiro
 email: victorxesus.barrreiro.dominguez@gmail.com
 description: >-
   A collection of paper reviews and academic resources.
-baseurl: "/paper-reviews-ai-research"
+baseurl: "" # Removed baseurl for direct gh-pages deployment
 url: "https://victorbarreiro.github.io"
 #twitter_username: jekyllrb
 github_username:  victorbarreiro
@@ -31,6 +31,7 @@ github_username:  victorbarreiro
 # Theme settings
 theme: minima
 plugins:
+  - jekyll-feed
   - jekyll-seo-tag
 
 # Search

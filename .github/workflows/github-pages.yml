@@ -1,3 +1,4 @@
+# .github/workflows/github-pages.yml
 name: Build and Deploy Jekyll site
 
 on:
@@ -17,7 +18,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Set up Ruby 3.1
+      - name: Setup Ruby 3.1
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.1
@@ -25,13 +26,13 @@ jobs:
       - name: Install dependencies
         run: bundle install
 
-      - name: Build site with Jekyll
+      - name: Build site
         run: bundle exec jekyll build --baseurl "/paper-reviews-ai-research"
         env:
           JEKYLL_ENV: production
           GITHUB_PAGES: true
 
-      - name: Upload build output
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
           path: ./_site
@@ -47,3 +48,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
+

@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 1.25rem;
-  color: color.adjust($text-color, $lightness: -10%);
+  color: darken($text-color, 10%);
 }
 
 // Layout
@@ -135,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: background-color 0.3s ease, transform 0.2s ease;
   
   &:hover {
-    background-color: color.adjust($primary-color, $lightness: -10%);
+    background-color: darken($primary-color, 10%);
     transform: translateY(-2px);
   }
 }

@@ -92,3 +92,9 @@ sass:
   load_paths:
     - _sass
     - node_modules
+    - assets/css
+
+# Include these directories in the build
+include:
+  - assets
+  - _sass

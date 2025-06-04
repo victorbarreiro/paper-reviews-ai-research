@@ -24,7 +24,7 @@ email: victorxesus.barrreiro.dominguez@gmail.com
 description: >-
   A collection of paper reviews and academic resources.
 baseurl: "/paper-reviews-ai-research"
-url: ""
+url: "https://victorbarreiro.github.io"
 #twitter_username: jekyllrb
 github_username:  victorbarreiro
 
